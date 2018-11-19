@@ -5,38 +5,100 @@
 }
 
 body{
-    font-family: 'Arsenal', sans-serif !important;
+    /* font-family: 'Arsenal', sans-serif !important; */
     background: rgb(197, 221, 212) !important;
 }
 
 .green{
-    background: #F3F8F4 !important;
+    background:linear-gradient(to top left, rgb(180, 246, 222), rgb(240, 243, 242)) !important;
 }
 
 #featured{
     border-radius: 5px 5px;
 }
 
-nav ul li{
-    padding-top:20px;
+nav{
+    border-radius: 5px;
 }
 
+nav ul{
+    padding-left:1rem;
+    padding-right:1rem;
+}
+
+nav ul li{
+    padding-top:10px;
+    padding-bottom:20px;
+    margin: 0 2px;
+    border: 1px solid grey;
+    border-radius: 5px;
+}
 
 nav ul li a{
     font-size: 1.2rem;
-    margin: 20px 7px;
-    font-weight: 700;
+    margin: 10px 7px;
+    font-weight: 600;
     letter-spacing: 0.9px;
-    color: green;
+    color: rgb(31, 93, 31);
     vertical-align: middle;
     line-height: 100%;
 }
 
 nav ul li a:hover{
     text-decoration: none;
-    color: green;
+    color: rgb(31, 93, 31);
 }
 
 nav ul li:hover{
-    background: rgb(131, 201, 175);
+    background: rgb(185, 221, 208);
+    /* margin-top:0; */
+    /* margin-bottom:0; */
 }
+
+
+.center {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 200px;
+}
+
+/* Set the size of the div element that contains the map */
+#map {
+ height: 400px;  /* The height is 400 pixels */
+ width: 100%;  /* The width is the width of the web page */
+    margin: 2rem auto;
+}
+
+.width {
+    width:calc(100% - 4rem);
+    margin: 2rem 4rem auto;
+    max-width:800px;
+}
+
+    @media only screen and (max-width: 720px) {
+        .width {
+            width:calc(100% - 2rem);
+            margin: 1rem auto;
+        }
+    }
+
+    @media only screen and (max-width:720px){
+        .navbar{
+            visibility: hidden !important;
+            display: hidden !important;
+            height:0;
+        }
+    }
+
+    .navbar{    
+        position: sticky !important;
+        top: 0;
+        background:linear-gradient(90deg, rgb(158, 246, 214), #C5DDD4);
+    }
+
+    footer{
+        width:100%;
+        height:40px;
+        padding:1rem;
+    }

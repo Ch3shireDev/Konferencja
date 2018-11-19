@@ -1,7 +1,7 @@
 #!/usr/bin/env python
 
 AUTHOR = 'Autor'
-SITENAME = 'Konferencja Doktorantów Nauk Przyrodniczych'
+SITENAME = 'Ecology in a Changing World'
 SITEURL = ''
 
 PATH = 'content'

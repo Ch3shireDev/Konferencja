@@ -20,33 +20,30 @@
 </head>
 
 <body id="index" class="home">
-        <nav class="navbar navbar-custom navbar-fixed-top bg-light p-0 mx-0 d-flex" role="navigation">                
-                <div class="px-4 mx-0 flex-fill d-flex">
-
-                        <span class='flex-fill py-3'><img src="http://konferencjaprzyrodnicza.ug.edu.pl/img/logo-top.png" height="42"></span>
+        <nav class="navbar navbar-custom navbar-fixed-top bg-light p-1 mx-0 d-flex shadow" role="navigation">                
+                <div class="px-1 mx-0 flex-fill d-flex" style='justify-content: flex-end'>
                         <span class='flex'>
                                 <ul class="nav nav-pills navbar-right h-100">
-                                                <!-- Hidden li included to remove active class from about link when scrolled up past about section -->
-                                                <li class="">
-                                                    <a class="page-scroll" href="#program">Program</a>
-                                                </li>
-                                                                                                            <li>
-                                                    <a class="page-scroll" href="#rejestracja">Rejestracja</a>
-                                                </li>
-                                                                                                            <li>
-                                                    <a class="page-scroll" href="#organizatorzy">Organizatorzy</a>
-                                                </li>
-                                                                                                            <li>
-                                                    <a href="2017.html">Archiwum</a>
-                                                </li>                                                      
-                                        </ul>
-                                </span>
+                                        <!-- Hidden li included to remove active class from about link when scrolled up past about section -->
+                                        <li><a class="page-scroll" href="#program">Home</a></li>
+                                        <li><a class="page-scroll" href="#rejestracja">Conference</a></li>
+                                        <li><a class="page-scroll" href="#organizatorzy">Organisers</a></li>
+                                        <li><a class="page-scroll" href="#registration">Registration</a></li>        
+                                        <li><a class="page-scroll" href="#map">Map</a></li>         
+                                        <li><a class="page-scroll" href="#program">Programme</a></li>                                             
+                                </ul>
+                        </span>
                 </div>
         </nav>
 
         <header id="banner" class="body">
-                <div class="jumbotron p-4 m-4 shadow green"><h2 id="title">{{ SITENAME }} {% if SITESUBTITLE %} <strong>{{ SITESUBTITLE }}</strong>{% endif %}</h2></div>
-        </header><!-- /#banner -->
+                <div class="jumbotron p-4 m-4 shadow green width mx-auto"><h2 id="title">{{ SITENAME }} {% if SITESUBTITLE %} <strong>{{ SITESUBTITLE }}</strong>{% endif %}</h2>
+                
+                        <span class='center'>
+                                <img src="./logo.png" height="240" style="">
+                        </span>
+                </div>
+        </header>
         {% block content %}
         {% endblock %}
         <section id="extras" class="body">
@@ -70,9 +67,28 @@
         {% endif %}
         </section><!-- /#extras -->
 
-        <footer id="contentinfo" class="body">
-        
+        <footer id="contentinfo" class="body green p-1 text-right">
+        <span class='m-1' style='line-height:100%; vertical-align:middle; font-weight:bold !important;'><small>&copy; <script>document.write(new Date().getFullYear())</script>, Igor Nowicki</small></span>
         </footer><!-- /#contentinfo -->
+
+<script>
+
+        function initMap() {
+        // The location of Uluru
+        var biol = {lat: 52.2137131, lng: 20.981364};
+        // The map, centered at Uluru
+        var map = new google.maps.Map(
+        document.getElementById('map'), {zoom: 11, center: biol});
+        // The marker, positioned at Uluru
+        var marker = new google.maps.Marker({position: biol, map: map});
+        }
+
+</script>
+
+<script async defer
+src="https://maps.googleapis.com/maps/api/js?key=AIzaSyDbTfqnVHg09WKxWMtNpZnGjyZi5LLhn_I&callback=initMap">
+</script>
+
 
 {% include 'analytics.html' %}
 {% include 'disqus_script.html' %}

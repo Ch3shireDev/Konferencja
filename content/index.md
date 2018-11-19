@@ -1,47 +1,97 @@
-title: Konferencja Doktorantów Nauk Przyrodniczych
+title: Ecology in a Changing World - PhD Student Conference
 date: 2018-11-04
 
-Serdecznie zapraszamy wszystkich doktorantów, których zainteresowania naukowe skupione są wokół szeroko rozumianych nauk przyrodniczych, na II Konferencję Doktorantów Nauk Przyrodniczych, która odbędzie się w dniach 19-22 czerwca 2018 r. na Uniwersytecie Gdańskim.
+# Home 
+Ecology in a Changing World - PhD Student Conference
+23-25 March, 2019
+University of Warsaw
+Faculty of Biology
+Biological and Chemical Research Centre
 
-Konferencja ma na celu wymianę doświadczeń i idei wśród doktorantów nauk przyrodniczych, w tym m.in. biologii, chemii, ekologii, biotechnologii, oceanologii.
+# Conference
+Welcome to the PhD Student Conference “Ecology in a Changing World”. 
 
-W programie konferencji przewidziane są wykłady zaproszonych gości, wystąpienia ustne i sesje plakatowe.
+The conference will be held on the 23th to 25th of March 2019, in Biological and Chemical Research Centre, University of Warsaw, Żwirki i Wigury 101, 02-089 Warsaw. 
 
-## Program Konferencji
+The meeting is open to PhD students of plant, animal and landscape ecology, their supervisors and other ecologists from any country. The aim of this meeting is to give an opportunity to young scientists to share their scientific ideas, experiences and improve presentation skills in English. 
 
-Miejsce obrad: Uniwersytet Gdański, Wydział Biologii, ul. Kładki 24, 80-822 Gdańsk
-	
-## Rejestracja
+We do not expect conference-type presentations, which pretend that everything is already solved. Presentations can include open questions and discussions of possible alternative ideas or methods.
 
-Każda osoba, która chce wziąć udział w Konferencji, powinna się zarejestrować za pomocą formularza on-line (link poniżej) oraz wysłać streszczenie zgłaszanej pracy na adres [konferencjaprzyrodnicza@biol.ug.edu.pl](mailto:konferencjaprzyrodnicza@biol.ug.edu.pl).
+After the conference participants will have a possibility to take part either in an after-conference excursion or a workshop. 
 
-Potwierdzenie rejestracji na Konferencję zostanie przesłane do uczestnika za pośrednictwem poczty e-mail po pozytywnym zweryfikowaniu rejestracji oraz streszczenia.
+We look forward to welcoming you !
 
-Udział w konferencji jest bezpłatny. Organizatorzy zapewniają materiały konferencyjne i&nbsp;poczęstunek w&nbsp;ramach przerw kawowo-herbacianych. Organizatorzy nie zapewniają posiłków (w&nbsp;formie lunchu) i&nbsp;noclegów, mogą jednak pomóc w&nbsp;rezerwacji.</p>
+# Organisers
+Department of Plant Ecology & Environmental Conservation
+Faculty of Biology (logo)
+Biological Chemical Research Centre University of Warsaw (logo)
 
-Ostateczny termin rejestracji (i&nbsp;przesyłania streszczeń) na Konferencję mija 31.05.2018. Rezygnację z&nbsp;uczestnictwa w Konferencji należy zgłosić na adres konferencjaprzyrodnicza@biol.ug.edu.pl.</p>
+## Organizing Committee
+- mgr Klara Goldstein,
+- mgr Izabela Jaszczuk, 
+- mgr Aleksandra Zarzycka,
+- mgr Piotr Chibowski,
+- mgr Małgorzata Sandzewicz,
+- mgr Łukasz Łach
 
-Dowodem uczestnictwa w&nbsp;Konferencji jest Certyfikat wystawiony przez Komitet Organizacyjny. Organizatorzy zastrzegają sobie prawo do odmowy wystawiania certyfikatu w&nbsp;sytuacji nieprzybycia na Konferencję lub nieprzedstawienia pracy przez jej autorów.
+## Scintific Commitee
+- dr hab. Małgorzata Suska-Malawska, 
+- dr hab Wiktor Kotowski, 
+- dr Łukasz Kozub, 
+- dr hab. Maciej Wódkiewicz
 
-## Kontakt
+# Registration
+IMPORTANT DATES 
+- 15 December 2019 Registration and Abstract submission opens 
+- 31 January 2019 registration for trip and workshops closes 
+- 28 February 2019 Submission of abstracts closes 
+- 23-25 March 2019 The conference “ Ecology in a Changing World - PhD Student Conference”
 
-### Adres:
+Registration fee (administration costs): 30 PLN. 
+We don’t cover  accommodation costs.
 
-Wydział Biologii Uniwersytetu Gdańskiego
+registration form. (tu link do formularza google, którego treść pod spodem)
 
-ul. Wita Stwosza 59, 80-308 Gdańsk
+Registration form (in google):
 
-pokój B/438
+First name
 
-### Telefon:
+Family name
 
-13 849 145
+Affilliation:
 
-### E-mail:
+Presentation:
 
-[konferencjaprzyrodnicza@biol.ug.edu.pl](mailto:konferencjaprzyrodnicza@biol.ug.edu.pl)
+Poster:
 
-### Strony:
+Preferred poster size: up to XX cm high x XX cm wide
 
-- [Wydział Biologii UG](http://www.biology.ug.edu.pl)
-- [Uniwersytet Gdański](http://www.ug.edu.pl)
+Abstracts (in English, around 300 words) for talks and posters can be submitted on echo2019@biol.uw.edu.pl. 
+
+Talks will be 15 minutes in total, including 3 minutes for questions (12+3). 
+
+The best presentations will be awarded. 
+
+If you want to participate in trip or workshops please register using registration form. (tu link do formularza google do trip and workshop). The registration for trip and workshops closes at 31th of January 2019.
+
+# Venue
+
+<div id='map' class='shadow'></div>
+
+University of Warsaw 
+
+Biological and Chemical Research Centre, Żwirki i Wigury 101, 02-089, Warsaw
+
+http://cnbch.uw.edu.pl/language/en/contacts-2/
+
+
+## Websites on city transport
+- [JakDojade.pl](jakdojade.pl) 
+- [ztm.waw.pl](ztm.waw.pl)
+
+# Programme
+Coming soon
+
+# Key-note speakers
+
+Coming soon
