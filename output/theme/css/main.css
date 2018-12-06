@@ -1,163 +1,103 @@
+a {
+  outline: none;
+}
 
-#main-logo {
-    background: rgb(8, 49, 14);
-    width: 50%;
-    min-width: 400px;
-    padding: 1rem;
-    margin: 2rem auto;
-    border-radius: 5px;
-    box-shadow: 2px 2px 5px black;
-  }
-  
-  #logo {
-    /* background-image: url("https://i.imgur.com/pm3EKru.png"); */
-    min-height: 300px;
-    height: calc(100vh - 500px);
-    background-repeat: no-repeat, repeat;
-    width: calc(100vh - 500px);
-    min-width: 300px;
-    max-width: 300px;
-    max-height: 300px;
-    margin: 1rem auto;
-    /* padding:2rem; */
-    /* background-position: center; */
-    /* background-size: contain; */
-  }
-  
-  header .jumbotron {
-    height: 90%;
-    overflow: hidden;
-  }
-  
-  #main-logo p {
-    color: white;
-    font-weight: 700px;
-    letter-spacing: 1px;
-    font-size: 0.7rem;
-    margin: 10px;
-    text-align: center;
-  }
-  
-  #title {
-    font-weight: 400;
-    letter-spacing: 1px !important;
-    text-align: center;
-  }
-  
-  .center-imag {
-    text-align: center;
-    position: relative;
-    display: block;
-    margin: 0 auto;
-  }
-  
-  header {
-    height: calc(100vh - 1rem);
-    min-height: 400px;
-  }
-  
-  body {
-    font-family: 'Montserrat', arial;
-    /* font-size: 48px; */
-    /* text-shadow: 4px 4px 4px #aaa; */
-    font-family: 'Arsenal', sans-serif !important;
-    background: rgb(197, 214, 165) !important;
-  }
-  
-  .green {
-    background: linear-gradient(to top left, rgb(240, 241, 242), rgb(230, 230, 230)) !important;
-  }
-  
-  #featured {
-    border-radius: 5px 5px;
-  }
-  
-  nav {
-    border-radius: 5px;
-    z-index: 10;
-  }
-  
-  nav ul {
-    padding-left: 1rem;
-    padding-right: 1rem;
-  }
-  
-  nav ul li {
-    padding-top: 5px;
-    padding-bottom: 10px;
-    margin: 0 2px;
-    border: 1px solid rgb(33, 68, 6);
-    border-radius: 5px;
-  }
-  
-  nav ul li a {
-    font-size: 1.2rem;
-    margin: 10px 7px;
-    font-weight: 600;
-    letter-spacing: 0.9px;
-    color: rgb(33, 68, 6);
-    vertical-align: middle;
-    line-height: 100%;
-  }
-  
-  nav ul li a:hover {
-    text-decoration: none;
-    color: rgb(31, 93, 31);
-  }
-  
-  nav ul li:hover {
-    background: rgb(120, 165, 113);
-    /* margin-top:0; */
-    /* margin-bottom:0; */
-  }
-  
-  .center {
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-    width: 200px;
-  }
-  
-  /* Set the size of the div element that contains the map */
-  
-  #map {
-    height: 400px;
-    /* The height is 400 pixels */
-    width: 100%;
-    /* The width is the width of the web page */
-    margin: 2rem auto;
-  }
-  
-  .width {
-    width: calc(100% - 4rem);
-    margin: 2rem 4rem auto;
-    max-width: 800px;
-  }
-  
-  @media only screen and (max-width: 720px) {
-    .width {
-      width: calc(100% - 2rem);
-      margin: 1rem auto;
-    }
-  }
-  
-  @media only screen and (max-width:720px) {
-    .navbar {
-      visibility: hidden !important;
-      display: hidden !important;
-      height: 0;
-    }
-  }
-  
-  .navbar {
-    position: sticky !important;
-    top: 0;
-    background: linear-gradient(90deg, rgb(63, 119, 57), #3F7739);
-  }
-  
-  footer {
-    width: 100%;
-    height: 40px;
-    padding: 1rem;
-  }
-  
+#title {
+  font-weight: 400;
+  letter-spacing: 1px !important;
+  text-align: center;
+}
+
+.center-imag {
+  text-align: center;
+  position: relative;
+  display: block;
+  margin: 0 auto;
+}
+
+body {
+  font-family: Open Sans;
+  background: rgb(197, 214, 165) !important;
+}
+
+.green {
+  background: rgb(223, 223, 219) !important;
+}
+
+#featured {
+  border-radius: 5px 5px;
+}
+
+nav {
+  padding-top: 0 !important;
+  padding-bottom: 0 !important;
+  z-index: 10;
+}
+
+.navbar-toggler {
+  padding: 0 0.25rem !important;
+}
+
+nav ul li a:hover {
+  text-decoration: none;
+  color: rgb(31, 93, 31);
+}
+
+nav ul li:hover {
+  background: rgb(120, 165, 113);
+  /* margin-top:0; */
+  /* margin-bottom:0; */
+}
+
+.center {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 200px;
+}
+
+/* Set the size of the div element that contains the map */
+
+#map {
+  height: 400px;
+  /* The height is 400 pixels */
+  width: 100%;
+  /* The width is the width of the web page */
+  margin: 2rem auto;
+}
+
+.width {
+  width: calc(100% - 4rem);
+  margin: 2rem 4rem auto;
+  max-width: 800px;
+}
+
+article {
+  padding: 5rem 4rem;
+}
+
+.navbar {
+  position: sticky !important;
+  top: 0;
+  background: linear-gradient(90deg, rgb(63, 119, 57), #3f7739);
+}
+
+footer {
+  width: 100%;
+  height: 40px;
+  padding: 1rem;
+}
+
+.ft {
+  font-size: 0.8rem !important;
+  margin-top: 0;
+  margin-bottom: 0;
+  line-height: 100%;
+  vertical-align: middle;
+  font-weight: 500 !important;
+}
+
+.ft a {
+  color: inherit;
+  font-size: inherit !important;
+}
