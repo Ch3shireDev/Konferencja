@@ -1,8 +1,7 @@
 title: Ecology in a Changing World - PhD Student Conference
 date: 2018-11-04
 
-## Home
-
+<span id='start'>
 Welcome to the PhD Student Conference, _Ecology in a Changing World_.
 
 The conference will be held on the 23th to 25th of March 2019, in Biological and Chemical Research Centre, University of Warsaw, Żwirki i Wigury 101, 02-089 Warsaw.
@@ -17,30 +16,30 @@ We look forward to welcoming you!
 
 ## Organisers
 
-- Department of Plant Ecology & Environmental Conservation
-- Faculty of Biology
-- Biological Chemical Research Centre University of Warsaw
+Department of Plant Ecology & Environmental Conservation  
+Faculty of Biology  
+Biological Chemical Research Centre University of Warsaw  
 
 ### Organizing Committee
 
-- mgr Klara Goldstein,
-- mgr Izabela Jaszczuk,
-- mgr Aleksandra Zarzycka,
-- mgr Piotr Chibowski
+mgr Klara Goldstein,  
+mgr Izabela Jaszczuk,  
+mgr Piotr Chibowski,    
+mgr Aleksandra Zarzycka
 
 ### Scientific Commitee
 
-- dr hab. Małgorzata Suska-Malawska,
-- dr hab Wiktor Kotowski,
-- dr Łukasz Kozub,
-- dr hab. Maciej Wódkiewicz
+dr hab. Małgorzata Suska-Malawska, prof. UW,  
+dr hab. Wiktor Kotowski, prof. UW,  
+dr Łukasz Kozub,  
+dr hab. Maciej Wódkiewicz
 
 ## Important dates
 
-- 15 December 2019 - Registration and Abstract submission opens
-- 31 January 2019 - Registration for trip and workshops closes
-- 28 February 2019 - Submission of abstracts closes
-- 23-25 March 2019 - _Ecology in a Changing World - PhD Student Conference_
+**15 December 2019** - Registration and abstract submission opens  
+**31 January 2019** - Registration for trip and workshops closes  
+**28 February 2019** - Submission of abstracts closes  
+**23-25 March 2019** - _Ecology in a Changing World - PhD Student Conference_  
 
 ## Registration
 
@@ -75,8 +74,8 @@ If you want to participate in trip or workshops please register using registrati
 
 ### Websites on city transport
 
-- [JakDojade.pl](jakdojade.pl)
-- [ztm.waw.pl](ztm.waw.pl)
+[JakDojade.pl](jakdojade.pl)  
+[ztm.waw.pl](ztm.waw.pl)  
 
 ## Programme
 

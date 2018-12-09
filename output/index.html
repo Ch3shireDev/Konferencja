@@ -26,7 +26,7 @@
   <div class="collapse navbar-collapse" id="collapsibleNavbar">
     <ul class="navbar-nav">
       <li class="nav-item">
-        <a class="nav-link" link="Home">Home</a>
+        <a class="nav-link" link="Conference">Conference</a>
       </li>
       <li class="nav-item">
         <a class="nav-link" link="Organisers">Organisers</a>
@@ -77,40 +77,32 @@
         </header>
 
             <div id="home" class="body mx-4 mb-5 shadow green width mx-auto">
-                <article><h2>Home</h2>
-<p>Welcome to the PhD Student Conference, <em>Ecology in a Changing World</em>.</p>
+                <article><p><span id='start'>
+Welcome to the PhD Student Conference, <em>Ecology in a Changing World</em>.</p>
 <p>The conference will be held on the 23th to 25th of March 2019, in Biological and Chemical Research Centre, University of Warsaw, Żwirki i Wigury 101, 02-089 Warsaw.</p>
 <p>The meeting is open to PhD students of plant, animal and landscape ecology, their supervisors and other ecologists from any country. The aim of this meeting is to give an opportunity to young scientists to share their scientific ideas, experiences and improve presentation skills in English.</p>
 <p>We do not expect conference-type presentations, which pretend that everything is already solved. Presentations can include open questions and discussions of possible alternative ideas or methods.</p>
 <p>After the conference participants will have a possibility to take part either in an after-conference excursion or a workshop.</p>
 <p>We look forward to welcoming you!</p>
 <h2>Organisers</h2>
-<ul>
-<li>Department of Plant Ecology &amp; Environmental Conservation</li>
-<li>Faculty of Biology</li>
-<li>Biological Chemical Research Centre University of Warsaw</li>
-</ul>
+<p>Department of Plant Ecology &amp; Environmental Conservation<br>
+Faculty of Biology<br>
+Biological Chemical Research Centre University of Warsaw  </p>
 <h3>Organizing Committee</h3>
-<ul>
-<li>mgr Klara Goldstein,</li>
-<li>mgr Izabela Jaszczuk,</li>
-<li>mgr Aleksandra Zarzycka,</li>
-<li>mgr Piotr Chibowski</li>
-</ul>
+<p>mgr Klara Goldstein,<br>
+mgr Izabela Jaszczuk,<br>
+mgr Piotr Chibowski,  <br>
+mgr Aleksandra Zarzycka</p>
 <h3>Scientific Commitee</h3>
-<ul>
-<li>dr hab. Małgorzata Suska-Malawska,</li>
-<li>dr hab Wiktor Kotowski,</li>
-<li>dr Łukasz Kozub,</li>
-<li>dr hab. Maciej Wódkiewicz</li>
-</ul>
+<p>dr hab. Małgorzata Suska-Malawska, prof. UW,<br>
+dr hab. Wiktor Kotowski, prof. UW,<br>
+dr Łukasz Kozub,<br>
+dr hab. Maciej Wódkiewicz</p>
 <h2>Important dates</h2>
-<ul>
-<li>15 December 2019 - Registration and Abstract submission opens</li>
-<li>31 January 2019 - Registration for trip and workshops closes</li>
-<li>28 February 2019 - Submission of abstracts closes</li>
-<li>23-25 March 2019 - <em>Ecology in a Changing World - PhD Student Conference</em></li>
-</ul>
+<p><strong>15 December 2019</strong> - Registration and abstract submission opens<br>
+<strong>31 January 2019</strong> - Registration for trip and workshops closes<br>
+<strong>28 February 2019</strong> - Submission of abstracts closes<br>
+<strong>23-25 March 2019</strong> - <em>Ecology in a Changing World - PhD Student Conference</em>  </p>
 <h2>Registration</h2>
 <p><a href="https://docs.google.com/forms/d/e/1FAIpQLSfrvxXIZmEDi_SLpWnU3gjhxx7iONOfQ5hXZX8gJq_hNvVDYQ/viewform?usp=pp_url&amp;entry.2005620554=Jan&amp;entry.1045781291=Kowalski&amp;entry.1065046570=University+of+Warsaw,+Faculty+of+Biology&amp;entry.1166974658=On+the+influence+of+the+sunspots+on+a+migrations+of+penguins&amp;entry.839337160=Field+measurements+of+population+of+narwhals+in+Baltic+Sea">Registration form.</a></p>
 <p>Registration fee (administration costs): 30 PLN. We don’t cover accommodation costs.</p>
@@ -138,10 +130,8 @@
 Żwirki i Wigury 101<br>
 02-089 Warsaw</p>
 <h3>Websites on city transport</h3>
-<ul>
-<li><a href="jakdojade.pl">JakDojade.pl</a></li>
-<li><a href="ztm.waw.pl">ztm.waw.pl</a></li>
-</ul>
+<p><a href="jakdojade.pl">JakDojade.pl</a><br>
+<a href="ztm.waw.pl">ztm.waw.pl</a>  </p>
 <h2>Programme</h2>
 <p>Coming soon</p>
 <h2>Key-note speakers</h2>
@@ -181,7 +171,13 @@ src="https://maps.googleapis.com/maps/api/js?key=AIzaSyDbTfqnVHg09WKxWMtNpZnGjyZ
 
 $('a.nav-link').each(function(a,b){
 var x = $(b).attr('link');
-var y = $(`h2:contains(${x})`);
+var y = null;
+if(x == 'Conference'){
+y = $('#start');
+}
+else{
+y = $(`h2:contains(${x})`);
+}
   $(b).click(function() {
       var h = $('nav').height();
       if($('.navbar-toggler:visible').attr('aria-expanded')==='true'){
