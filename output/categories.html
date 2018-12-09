@@ -6,43 +6,44 @@
         <link rel="stylesheet" href="/theme/css/main.css" />
         <link rel="stylesheet" href="/theme/css/resize.css" />
         <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
-        <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
-        <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.bundle.min.js" integrity="sha384-pjaaA8dDz/5BgdFUPX6M/9SUZv4d12SUPF0axWc+VRZkx5xU3daN+lYb49+Ax+Tl" crossorigin="anonymous"></script>
         <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
         <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>  
         <script src="https://code.jquery.com/jquery-2.2.4.min.js" integrity="sha256-BbhdlvQf/xTY9gja0Dq3HiwQF8LaCRTXxZKRutelT44="   crossorigin="anonymous"></script>
-        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+        
+        <link rel='stylesheet' type='text/css' href='https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.2/css/bootstrap.min.css'/>
+        <script src='https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.2/js/bootstrap.min.js'></script>
+        <script src='https://ajax.googleapis.com/ajax/libs/jquery/2.1.4/jquery.min.js'></script>
         <link rel="stylesheet" type="text/css" href="//fonts.googleapis.com/css?family=Open+Sans" />
 </head>
 
 <body id="index" class="home">
 
- <nav class="navbar navbar-expand-sm bg-dark navbar-dark">
-  <a class="navbar-brand" href="#">ECHO</a>
+ <nav class="navbar navbar-expand-md bg-dark navbar-dark">
+  <a class="navbar-brand">ECHO</a>
   <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsibleNavbar">
     <span class="navbar-toggler-icon"></span>
   </button>
   <div class="collapse navbar-collapse" id="collapsibleNavbar">
     <ul class="navbar-nav">
       <li class="nav-item">
-        <a class="nav-link" href="#home">Home</a>
+        <a class="nav-link" link="Home">Home</a>
       </li>
       <li class="nav-item">
-        <a class="nav-link" href="#organisers">Organisers</a>
+        <a class="nav-link" link="Organisers">Organisers</a>
       </li>
       <li class="nav-item">
-        <a class="nav-link" href="#registration">Dates</a>
+        <a class="nav-link" link="Important dates">Dates</a>
       </li>
       <li class="nav-item">
-        <a class="nav-link" href="#registration">Registration</a>
-      </li>
-      
-      <li class="nav-item">
-        <a class="nav-link" href="#venue">Venue</a>
+        <a class="nav-link" link="Registration">Registration</a>
       </li>
       
       <li class="nav-item">
-        <a class="nav-link" href="#programme">Programme</a>
+        <a class="nav-link" link="Venue">Venue</a>
+      </li>
+      
+      <li class="nav-item">
+        <a class="nav-link" link="Programme">Programme</a>
       </li>
     </ul>
   </div>
@@ -83,7 +84,7 @@
         </section><!-- /#extras -->
         
 
-        <footer id="contentinfo" class="body px-1 py-0 text-right" style="background: #3F7739; height:30px;">
+        <footer id="contentinfo" class="body px-1 py-0 text-right">
         <span class='ft'>&copy; <script>document.write(new Date().getFullYear())</script></span>, 
         <span class='ft'><a href='mailto:igor.nowicki.business@gmail.com'>Igor Nowicki</a> (website), </span>
         <span class='ft'><a href="mailto:alexandra.novakovska@gmail.com">Aleksandra Nowakowska</a> (logo, layout). </span>
@@ -108,6 +109,29 @@
 src="https://maps.googleapis.com/maps/api/js?key=AIzaSyDbTfqnVHg09WKxWMtNpZnGjyZi5LLhn_I&callback=initMap">
 </script>
 
+<script>
+
+$('a.nav-link').each(function(a,b){
+var x = $(b).attr('link');
+var y = $(`h2:contains(${x})`);
+  $(b).click(function() {
+      var h = $('nav').height();
+      if($('.navbar-toggler:visible').attr('aria-expanded')==='true'){
+        $('.navbar-toggler').click();
+      }
+      $('body, html').animate({
+          scrollTop: y.offset().top - h - 5
+      }, 500);
+  });
+});
+
+
+$('a.navbar-brand').click(function(){
+    $('body, html').animate({
+        scrollTop: 0
+    }, 500);
+});
+</script>
 
 </body>
 </html>

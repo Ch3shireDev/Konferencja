@@ -3,7 +3,7 @@
 {% block content %}
     {% for article in articles_page.object_list %}
         {% if loop.first and not articles_page.has_previous() %}
-            <div id="featured" class="body mx-4 mb-5 shadow green width mx-auto">
+            <div id="home" class="body mx-4 mb-5 shadow green width mx-auto">
                 <article>{{ article.content }}</article>
             </div>
             {% endif %}

@@ -1,6 +1,8 @@
 title: Ecology in a Changing World - PhD Student Conference
 date: 2018-11-04
 
+## Home
+
 Welcome to the PhD Student Conference, _Ecology in a Changing World_.
 
 The conference will be held on the 23th to 25th of March 2019, in Biological and Chemical Research Centre, University of Warsaw, Żwirki i Wigury 101, 02-089 Warsaw.
@@ -26,7 +28,7 @@ We look forward to welcoming you!
 - mgr Aleksandra Zarzycka,
 - mgr Piotr Chibowski
 
-### Scintific Commitee
+### Scientific Commitee
 
 - dr hab. Małgorzata Suska-Malawska,
 - dr hab Wiktor Kotowski,
