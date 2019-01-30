@@ -3,8 +3,8 @@
 <head>
         <meta charset="utf-8" />
         <title>{% block title %}{{ SITENAME }}{%endblock%}</title>
-        <link rel="stylesheet" href="{{ SITEURL }}/{{ THEME_STATIC_DIR }}/css/main.css" />
-        <link rel="stylesheet" href="{{ SITEURL }}/{{ THEME_STATIC_DIR }}/css/resize.css" />
+        <link rel="stylesheet" href="main.css" />
+        <link rel="stylesheet" href="resize.css" />
         {% if FEED_ALL_ATOM %}
         <link href="{{ FEED_DOMAIN }}/{{ FEED_ALL_ATOM }}" type="application/atom+xml" rel="alternate" title="{{ SITENAME }} Atom Feed" />
         {% endif %}
@@ -24,7 +24,7 @@
 
 <body id="index" class="home">
 
- <nav class="navbar navbar-expand-md bg-dark navbar-dark">
+ <nav class="navbar navbar-expand-lg bg-dark navbar-dark" style="overflow:hidden">
   <a class="navbar-brand">ECHO</a>
   <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsibleNavbar">
     <span class="navbar-toggler-icon"></span>
@@ -33,6 +33,9 @@
     <ul class="navbar-nav">
       <li class="nav-item">
         <a class="nav-link" link="Conference">Conference</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" link="Key-note speakers" style='white-space: pre;'>Key-note&nbsp;speakers</a>
       </li>
       <li class="nav-item">
         <a class="nav-link" link="Organisers">Organisers</a>
@@ -51,6 +54,15 @@
       <li class="nav-item">
         <a class="nav-link" link="Programme">Programme</a>
       </li>
+
+
+      <li class="nav-item">
+        <a class="nav-link" link="Polish">PTEkol</a>
+      </li>
+
+      <li class="nav-item">
+        <a class="nav-link" link="Contact">Contact</a>
+      </li>
     </ul>
   </div>
 </nav> 
@@ -63,7 +75,7 @@
         </div>
         <div id='logo-2' >
         
-        <h4 class='text-white text-center'>Ecology in a Changing World</h4>
+        <h3 class='text-white text-center'>Ecology in a Changing World</h4>
         <p>PhD Students Conference</p>
         <p>23-25 March, 2019</p>
         <p>University of Warsaw</p>
@@ -83,6 +95,18 @@
 
         </div>
         </header>
+<style>
+#home{
+    border-radius: .3rem;
+}
+
+blockquote{
+  border-left: .25em solid #dfe2e5;
+  padding-left: 1rem;
+  font-size: 0.9rem;    
+  color: #6a737d;
+}
+</style>
 
         {% block content %}
         {% endblock %}
@@ -118,12 +142,9 @@
 <script>
 
         function initMap() {
-        // The location of Uluru
-        var biol = {lat: 52.2137131, lng: 20.981364};
-        // The map, centered at Uluru
+        var biol = {lat: 52.213614, lng: 20.987346};
         var map = new google.maps.Map(
-        document.getElementById('map'), {zoom: 11, center: biol});
-        // The marker, positioned at Uluru
+        document.getElementById('map'), {zoom: 15, center: biol});
         var marker = new google.maps.Marker({position: biol, map: map});
         }
 

@@ -1,0 +1,159 @@
+nav *{  
+  outline: none !important;
+}
+
+
+a.navbar-brand{
+color:#fff !important;
+cursor: pointer;
+user-select: none;    
+-moz-user-select: none;
+-khtml-user-select: none;
+-webkit-user-select: none;
+}
+
+.navbar-toggler {
+  padding: 0 0.25rem !important;  
+  position: absolute;
+  right:5px;
+  margin:1.5px;
+  top:0;
+  user-select: none;    
+  outline: none !important;
+  -moz-user-select: none;
+  -khtml-user-select: none;
+  -webkit-user-select: none;
+  
+ outline: none;
+ -moz-outline: none;
+ -moz-user-focus: none;
+}
+
+.navbar-toggler::selection{
+  
+  outline: none !important;
+}
+
+.navbar{
+  border-radius: 0 !important;
+}
+
+#title {
+  font-weight: 400;
+  letter-spacing: 1px !important;
+  text-align: center;
+}
+
+.center-imag {
+  text-align: center;
+  position: relative;
+  display: block;
+  margin: 0 auto;
+}
+
+body {
+  font-family: Open Sans;
+  /* background:linear-gradient(45deg,  	#F6F2EF, #ECEFDA) !important; */  
+  background: rgb(168, 88, 27);
+  background-image: 
+  linear-gradient(-100deg, rgba(0,0,0, 0) 90%, rgba(106, 147, 108, 0.5) 10%),
+  linear-gradient(-80deg,rgba(0,0,0, 0) 90%, rgba(166, 190, 177, 0.7) 30%),
+  linear-gradient(-110deg,rgba(0,0,0, 0) 94%, rgba(24, 131, 72, 0.7) 30%),
+  linear-gradient(70deg, rgba(0,0,0, 0) 90%, #ECEFDA 10%),
+  linear-gradient(#F6F2EF,#F6F2EF);
+  ;
+  /* background-size: 100% 100px, 100%; */
+  /* position: static; */
+  /* height:100vh; */
+  background-attachment: fixed !important;
+  background-repeat: no-repeat;
+/* background-attachment: fixed; */
+}
+
+.green {
+  /* background: rgb(223, 223, 219) !important; */
+  background: rgba(243, 248, 244, 1) !important;
+}
+
+#featured {
+  border-radius: 5px 5px;
+}
+
+nav {
+  padding-top: 0 !important;
+  padding-bottom: 0 !important;
+  z-index: 10;
+}
+
+nav ul li a {
+  outline: none;
+  
+  -moz-user-select: none;
+  -khtml-user-select: none;
+  -webkit-user-select: none;
+}
+
+nav ul li a:hover {
+  text-decoration: none;
+  color: rgb(31, 93, 31);
+  cursor: pointer;
+  background: rgb(120, 165, 113);
+}
+
+.center {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 200px;
+}
+
+/* Set the size of the div element that contains the map */
+
+#map {
+  height: 400px;
+  /* The height is 400 pixels */
+  width: 100%;
+  /* The width is the width of the web page */
+  margin: 2rem auto;
+}
+
+.spacing{
+  letter-spacing:1px;
+}
+
+.width {
+  width: calc(100% - 6rem);
+  margin: 2rem 4rem auto;
+  max-width: 800px;
+}
+
+article {
+  padding: 2rem 4rem 5rem;
+}
+
+.navbar {
+  position: sticky !important;
+  top: 0;
+  background: linear-gradient(90deg, rgb(63, 119, 57), #3f7739);
+}
+
+footer {
+  width: 100%;
+  padding: 1rem;
+  background: #3F7739; 
+  height:25px;
+}
+
+.ft {
+  font-size: 0.8rem !important;
+  margin-top: 0;
+  margin-bottom: 0;
+  line-height: 100%;
+  vertical-align: middle;
+  font-weight: 500 !important;
+}
+
+.ft a {
+  color: inherit;
+  font-size: inherit !important;
+}
