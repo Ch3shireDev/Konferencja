@@ -35,6 +35,27 @@
         <a class="nav-link" link="Conference">Conference</a>
       </li>
       <li class="nav-item">
+        <a class="nav-link" link="Registration">Registration</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" link="Keynotes">Keynotes</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" link="Programme">Programme</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" link="Venue">Venue</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" link="Organizers">Organizers</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" link="Polish">PTEkol</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" link="Contact">Contact</a>
+      </li> 
+      <!-- <li class="nav-item">
         <a class="nav-link" link="Key-note speakers" style='white-space: pre;'>Key-note&nbsp;speakers</a>
       </li>
       <li class="nav-item">
@@ -56,13 +77,7 @@
       </li>
 
 
-      <li class="nav-item">
-        <a class="nav-link" link="Polish">PTEkol</a>
-      </li>
-
-      <li class="nav-item">
-        <a class="nav-link" link="Contact">Contact</a>
-      </li>
+-->
     </ul>
   </div>
 </nav> 
@@ -160,7 +175,7 @@ $('a.nav-link').each(function(a,b){
 var x = $(b).attr('link');
 var y = null;
 if(x == 'Conference'){
-y = $('#start');
+y = $(`h1:contains(${x})`);
 }
 else{
 y = $(`h2:contains(${x})`);
